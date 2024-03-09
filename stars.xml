@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" method="upgrade">
+    <name>Stars</name>
+    <!-- Other Meta Data -->
+    <version>1.0.0</version>
+    <description>Stars is demo extension for Joomla! 5</description>
+    
+    <namespace path="src/">TechFry\Component\Stars</namespace>
+    
+    <administration>
+        <menu link="index.php?option=com_stars">Stars</menu>
+        <files folder="admin">
+        <filename>access.xml</filename>
+            <folder>forms</folder>
+            <folder>services</folder>
+            <folder>src</folder>
+            <folder>tmpl</folder>
+        </files>
+    </administration>
+    
+</extension> 
